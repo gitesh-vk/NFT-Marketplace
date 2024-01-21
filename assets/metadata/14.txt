@@ -1,0 +1,5 @@
+{
+    "description": "Ape Floating Head Glasses",
+    "image": "http://bafybeiczdff66yayxqrgtgubikiy7u4bg665rl63xt3lum2ffrqndhxffm.ipfs.localhost:48084/14.png",
+    "name": "Glass Wear"
+}

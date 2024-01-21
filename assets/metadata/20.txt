@@ -1,0 +1,5 @@
+{
+    "description": "Ape Floating Head Yellow",
+    "image": "http://bafybeiczdff66yayxqrgtgubikiy7u4bg665rl63xt3lum2ffrqndhxffm.ipfs.localhost:48084/20.png",
+    "name": "Yellow Teeth"
+}
