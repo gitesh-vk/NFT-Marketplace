@@ -1,0 +1,132 @@
+.bg{
+  background: linear-gradient(90deg, rgba(158,255,254,1) 0%, rgba(255,252,161,1) 48%, rgba(255,252,161,1) 51%, rgba(253,181,255,1) 100%);
+  background-size: auto;
+  background-repeat: ;
+  padding-top: 3%;
+  padding-bottom: 6%;
+  
+}
+
+.imgDiv {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-grid;
+  margin: 30px;
+  border: 5px;
+  border-color: #333a2d;
+  border-radius: 5px;
+}
+.imgDiv button {
+  margin: 10px auto 0px auto;
+}
+
+.ref-link{
+  color: #C53AAE; 
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(158,255,254,1) 0%, rgba(255,252,161,1) 48%, rgba(255,252,161,1) 51%, rgba(253,181,255,1) 100%);
+  background-size: auto;
+  background-repeat: repeat;
+  min-height: 100vh;
+  
+}
+
+.connect-container {
+  p {
+  margin: 15px 300px 15px 300px;
+}
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(158,255,254,1) 0%, rgba(255,252,161,1) 48%, rgba(255,252,161,1) 51%, rgba(253,181,255,1) 100%);
+  background-size: auto;
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+
+.disconnect-button {
+  position: absolute;
+  top: 10px;
+  left: 87%;
+  padding: 7px 5px;
+  border-radius: 5px;
+  background-color: #C53AAE;
+  color: white;
+  cursor: pointer;
+}
+
+.wallet {
+  top: 30px;
+  left: 10px;
+  padding: 7px 5px;
+  border-radius: 5px;
+  background-color: #C53AAE;
+  color: white;
+  cursor: pointer;
+}
+
+.disconnect-button:hover {
+  background-color: #2D2E3A;
+
+}
+
+.connect-button{
+  padding: 7px 5px;
+  border-radius: 5px;
+  background-color: #C53AAE;
+  color: white;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.connect-button:hover{
+  background-color: #2D2E3A;
+}
+.mint_btn {
+  padding: 7px 5px;
+  border-radius: 5px;
+  background-color: #C53AAE;
+  color: white;
+}
+
+.mint_btn:hover {
+  background-color: #2D2E3A;
+}
+
+.withdraw_btn {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #506fec;
+  color: white;
+}
+
+.withdraw_btn:hover {
+  background-color: #131572;
+}
+
+.imgGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px;
+  margin-top: 50px;
+  grid-auto-flow: dense;
+    /* width: 100%; */
+}
+
+@media screen and (max-width: 1000px) {
+  .imgGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imgGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

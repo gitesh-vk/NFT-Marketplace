@@ -1,0 +1,5 @@
+{
+    "description": "Ape Floating Head Captain",
+    "image": "http://bafybeiczdff66yayxqrgtgubikiy7u4bg665rl63xt3lum2ffrqndhxffm.ipfs.localhost:48084/17.png",
+    "name": "Captain Bear"
+}
