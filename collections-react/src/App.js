@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 
 
 
-const contractAddress = "0xD6d43de7089364C52f2Fd0C520AFc04751F6c33F";
+const contractAddress = "0x45D81Ab21d274B9AEd723787E5a542595EdB6415";
 
 function App() {
   const [account, setAccount] = useState(null);
@@ -25,7 +25,7 @@ function App() {
         async function checkNetwork() {
       if (window.ethereum) {
         const chainId = await window.ethereum.request({ method: "eth_chainId" });
-        setIsCorrectNetwork(chainId === "0x13881"); // Change to the correct chain ID
+        setIsCorrectNetwork(chainId === "0x66eee"); // Change to the correct chain ID
       }
     }
     //check for initial network
@@ -33,7 +33,7 @@ function App() {
     
     //Check for network change
     window.ethereum.on("chainChanged", (newChainId) => {
-      setIsCorrectNetwork(newChainId === "0x13881"); // Change to the correct chain ID
+      setIsCorrectNetwork(newChainId === "0x66eee"); // Change to the correct chain ID
       
     },[]);
   }, []);
@@ -79,84 +79,84 @@ function App() {
 
 const data = [
     {
-      url: "./assets/images/1.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/1.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/1.png  ",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/1.txt')",
     },
     {
-      url: "./assets/images/2.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/2.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/2.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/2.txt')",
     },
     {
-      url: "./assets/images/3.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/3.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/3.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/3.txt')",
     },
     {
-      url: "./assets/images/4.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/4.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/4.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/4.txt')",
     },
     {
-      url: "./assets/images/5.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/5.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/5.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/5.txt')",
     },
     {
-      url: "./assets/images/6.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/6.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/6.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/6.txt')",
     },
     {
-      url: "./assets/images/7.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/7.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/7.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/7.txt')",
     },
     {
-      url: "./assets/images/8.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/8.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/8.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/8.txt')",
     },
     {
-      url: "./assets/images/9.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/9.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/9.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/9.txt')",
     },
     {
-      url: "./assets/images/10.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/10.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/10.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/10.txt')",
     },
     {
-      url: "./assets/images/11.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/11.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/11.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/11.txt')",
     },
     {
-      url: "./assets/images/12.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/12.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/12.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/12.txt')",
     },
     {
-      url: "./assets/images/13.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/13.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/13.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/13.txt')",
     },
     {
-      url: "./assets/images/14.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/14.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/14.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/14.txt')",
     },
     {
-      url: "./assets/images/15.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/15.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/15.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/15.txt')",
     },
     {
-      url: "./assets/images/16.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/16.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/16.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/16.txt')",
     },
     {
-      url: "./assets/images/17.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/17.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/17.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/17.txt')",
     },
     {
-      url: "./assets/images/18.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/18.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/18.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/18.txt')",
     },
     {
-      url: "./assets/images/19.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/19.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/19.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/19.txt')",
     },
     {
-      url: "./assets/images/20.png",
-      param: "handleMint('http://bafybeifwj4cvmdqfpspluevh36odfim2pqezcgrhbfmm3tjv3bbffuisqy.ipfs.localhost:48084/20.txt')",
+      url: "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/20.png",
+      param: "handleMint('https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeiame3i6wijnr6dvi4rb5w73zgevw3mia2kifdtjcsjgnr2ek5vzui/20.txt')",
     },
 
   ];
@@ -177,8 +177,8 @@ const data = [
       <div className="container">
         <br />
         <h1>NFT Marketplace</h1>
-        <h2>Switch to the Polygon Mumbai Network</h2>
-        <p>Please switch to the Polygon Mumbai network to use this app.</p>
+        <h2>Switch to the Arbitrum Sepolia Network</h2>
+        <p>Please switch to the Arbitrum Sepolia network to use this app.</p>
       </div>
     );
   }
@@ -189,7 +189,7 @@ const data = [
   async function handleMint(tokenURI) {
     setIsMinting(true);
     try {
-      const options = { value: ethers.utils.parseEther("0.01") };
+      const options = { value: ethers.utils.parseEther("0.00001") };
       const response = await NFTContract.mintNFT(tokenURI, options);
       console.log("Received: ", response);
     } catch (err) {
@@ -199,7 +199,7 @@ const data = [
     }
   }
 
-  if (account === null) {
+  if (account == null) {
       return (
         <>
           <div className="connect-container">
@@ -258,7 +258,7 @@ const data = [
                 handleMint(item.param);
               }}
             >
-              Mint - 0.01 MATIC
+              Mint - 0.00001 ETH
             </Button>
           </div>
         ))}

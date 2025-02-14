@@ -12,7 +12,7 @@ contract Collection is ERC721URIStorage, Ownable {
     uint256 private _totalMinted = 0;
     mapping(address => uint8) private mintedAddress;
     mapping(string => uint8) private URIMapping;
-    uint256 public PRICE_PER_TOKEN = 0.01 ether;
+    uint256 public PRICE_PER_TOKEN = 0.00001 ether;
     uint256 public LIMIT_PER_ADDRESS = 2;
     uint256 public MAX_SUPPLY  = 5;
 

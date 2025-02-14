@@ -1,5 +1,5 @@
 {
     "description": "Ape Floating Head Red",
-    "image": "http://bafybeiczdff66yayxqrgtgubikiy7u4bg665rl63xt3lum2ffrqndhxffm.ipfs.localhost:48084/8.png",
+    "image": "https://moccasin-top-chickadee-808.mypinata.cloud/ipfs/bafybeieaj2nqy25lskuhcvf6paufnorh35budo3uvptdmoaddmdy2wvi2q/8.png",
     "name": "Red Hair"
 }
